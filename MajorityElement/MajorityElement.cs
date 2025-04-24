@@ -12,7 +12,9 @@
                 a = num;
             }
 
-            i += (num == a) ? 1 : -1;
+            if (num == a) { i++; }
+            else { i--; }
+        
         }
 
         return a;
